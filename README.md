@@ -1,6 +1,6 @@
 # **Joalheria - Projecto Java DOA**
 
-Bem-vindo ao sistema de gestão para uma joalheria. Este projeto foi desenvolvido para facilitar o gerenciamento de clientes, pedidos, funcionários e joias, com um fluxo estruturado e integração por meio de arquivos CSV.
+Bem-vindo ao sistema de gestão para uma joalheria. Este projeto está sendo desenvolvido para facilitar o gerenciamento de clientes, pedidos, funcionários e joias, com um fluxo estruturado e integração por meio de arquivos CSV.
 
 ---
 
@@ -36,11 +36,14 @@ Este projeto simula o funcionamento de uma joalheria, oferecendo funcionalidades
 3. Clone este repositório:
    ```bash
    git clone https://github.com/tales96323/Joalheria_DOA.git
-   cd joalheria
+   cd Joalheria_DOA
+
+---  
 
 ## **Detalhes sobre implementação e criação**
 1. Não há controller, pois não tem a interação com o usuário concluída. (Foi feita em uma outra versão, mas não está implementada nessa).
 2. Não há CRUD. Pretendo fazer um para nascer o controller e criar a interação completa da aplicação.
 3. Existem alguns testes, mas não foram todos os testes implementados.
 4. A criação dos arquivos csv é feita de forma automática assim que o projeto roda.
+5. A aplicação inicializa no Application.java (dentro dele estão todas as configurações do usuário que poderiam ser feitas no Controller). 
 
