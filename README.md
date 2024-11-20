@@ -35,7 +35,7 @@ Este projeto simula o funcionamento de uma joalheria, oferecendo funcionalidades
 2. Um editor de texto ou IDE como IntelliJ IDEA ou Eclipse.
 3. Clone este repositório:
    ```bash
-   git clone "Esse repositório"
+   git clone https://github.com/tales96323/Joalheria_DOA.git
    cd joalheria
 
 ## **Detalhes sobre implementação e criação**
