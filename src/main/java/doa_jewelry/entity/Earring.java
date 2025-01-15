@@ -1,0 +1,39 @@
+package doa_jewelry.entity;
+
+public class Earring extends Jewelry {
+    private String claspType;
+
+    public Earring(String name, String material, double weight, double price, int stockQuantity,
+                   JewelryCategory category, String claspType) {
+        super(name, MaterialType.valueOf(material), weight, price, stockQuantity, category);
+        this.claspType = claspType;
+    }
+
+    public Earring(Long Id, String name, String material, double weight, double price, int stockQuantity,
+                   JewelryCategory category, String claspType) {
+        super(name, MaterialType.valueOf(material), weight, price, stockQuantity, category);
+        this.setId(Id);
+        this.claspType = claspType;
+    }
+
+    public String getClaspType() {
+        return claspType;
+    }
+
+    public void setClaspType(String claspType) {
+        this.claspType = claspType;
+    }
+
+    public String toString() {
+        return "Earring{" +
+                "ID=" + getId() +
+                ", Name='" + getName() + '\'' +
+                ", Material='" + getMaterial() + '\'' +
+                ", Weight=" + getWeight() +
+                ", Price=" + getPrice() +
+                ", Stock=" + getStockQuantity() +
+                ", Category=" + getCategory() +
+                ", ClaspType=" + getClaspType() +
+                '}';
+    }
+}
